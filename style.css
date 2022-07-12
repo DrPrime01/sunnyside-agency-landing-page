@@ -8,6 +8,7 @@
 
 body {
     font-size: var(--body-font-size);
+    min-height: 100vh;
 }
 
 :root {
@@ -275,10 +276,10 @@ main {
 }
 
 .testimonial-img {
-    margin: 0 155px;
+    margin: 10px auto;
     border-radius: 50%;
     height: 100px;
-    width: auto;
+    width: 100px;
 }
 
 #girl-1 {
@@ -397,7 +398,7 @@ footer a {
     color: var(--footer-color);
 }
 
-@media screen and (min-width: 415px) and (max-width: 1440px) {
+@media screen and (min-width: 427px) {
     header {
         background: url("./images/desktop/image-header.jpg");
         background-position: center;
